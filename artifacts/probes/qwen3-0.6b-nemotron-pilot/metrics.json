@@ -1,0 +1,13 @@
+{
+  "model": "Qwen/Qwen3-0.6B",
+  "layer": 14,
+  "dataset": "nvidia/Nemotron-3.5-Content-Safety-Dataset:balanced-en-response-1000",
+  "train_examples": 600,
+  "validation_examples": 200,
+  "test_examples": 200,
+  "best_validation_bce": 0.5890252590179443,
+  "test_bce": 0.5626009106636047,
+  "test_accuracy_at_0.5": 0.6650000214576721,
+  "test_auroc": 0.7911999821662903,
+  "seed": 0
+}
